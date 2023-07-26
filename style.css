@@ -225,3 +225,48 @@ nav a {
 .contact-item a:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+  .main h1 {
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+
+  .main img {
+    height: 300px; /* Reduzindo o tamanho da imagem para dispositivos móveis */
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  .main p {
+    font-size: 20px;
+    margin-left: 50px;
+  }
+
+  .saiba-mais {
+    margin-left: 100px;
+  }
+
+  .about img {
+    height: 200px; /* Reduzindo o tamanho da imagem para dispositivos móveis */
+  }
+
+  .about h1,
+  .atualmente h1 {
+    font-size: 40px;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .about p,
+  .atualmente p {
+    font-size: 16px;
+    margin-left: 0;
+  }
+
+  .atualmente img {
+  height: 400px;
+  margin-left: 850px;
+}
+}
